@@ -1,0 +1,15 @@
+#!/bin/bash
+
+Date 28/01/2016
+
+any programming Language we have the following 
+
+	Variables
+	data types
+	conditions
+	functions
+	loops
+	error handling
+In Shell scripting 
+Variables : 
+
