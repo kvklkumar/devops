@@ -13,3 +13,19 @@ any programming Language we have the following
 In Shell scripting 
 Variables : 
 
+shell script we have sepecial variables :
+#! -- is call as shebang - all shell script should start which this wich bash its belongs to..
+
+$1, $2, $3 .. $N are arguments  / variables passed to the scxript.
+
+$@ - which all arguments / variables passed to script $@
+$# - total number of arguments / variables passed to script $#
+$* - which all arguments / variables passed to script $* # -- it will treat as single artument.. can use in the array operations .. only use $@
+$$ - PID - process id of the current script.
+$0 - current script name 
+$HOME - home directory for the current user 
+$PWD - Presetn working directory of the script
+$USER - current user of the script executor.
+$! - background process PID 
+& - if used as the end of the execution to make the task execute back end
+
