@@ -13,7 +13,34 @@ any programming Language we have the following
 In Shell scripting 
 Variables : 
 
+Variables will be define in CAPS letter and no space between KEY and =
+for Examples : 
+
+PERSON1=RAMESH
+PERSON2=SURESH
+
+to refer the variable in the script 
+
+echo "print persona name :: $PERSON1"
+echo "second person name:: $PERSON2"
+
+we can declear the Variables and assing variables from the user given aruguments 
+
+PERSON1=$1
+PERSON2=$2
+
+to execute any command in the script - $(command)
+for example : echo "current date :: $(date)"
+read the arguments from the user input and store 
+
+
+echo "enter user name:: "
+read USER_NAME
+
+echo "enter password: "
+read -s PASSSWORD  --> -s parameter will hide the input which user enters in the prompt 
 shell script we have sepecial variables :
+=============================================
 #! -- is call as shebang - all shell script should start which this wich bash its belongs to..
 
 $1, $2, $3 .. $N are arguments  / variables passed to the scxript.
